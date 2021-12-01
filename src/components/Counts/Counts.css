@@ -1,0 +1,65 @@
+#section-events {
+  /* background-color: #F7F7F7; */
+  text-align: center;
+}
+
+.event-image-box {
+  margin-bottom: 6rem;
+}
+
+.event-img {
+  width: 50% !important;
+  margin: 0 auto;
+}
+
+.event-box {
+  display: flex;
+  padding: 3rem;
+  border-radius: 8px;
+  border-bottom: 3px solid rgba(28, 110, 164, 0.38);
+}
+
+.box-margin:not(:last-child) {
+  margin-bottom: 4rem !important;
+}
+
+.box-1 {
+  flex: 1;
+}
+
+.icon-box {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: #3e64ff;
+}
+
+.event-icon {
+  color: white;
+  margin-top: 2rem;
+}
+
+.box-2 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.year {
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #3e64ff;
+}
+
+.year-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.content {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.9rem;
+}

@@ -1,0 +1,65 @@
+.section-wedo {
+  margin: 0 auto;
+}
+
+.wedo-heading {
+  margin-bottom: 7rem;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+.card {
+  font-size: 1.4rem;
+  background-color: white !important;
+  padding: 2.5rem;
+  border-radius: 1rem !important;
+  width: 80%;
+  /* box-shadow: 0 1rem 3rem rgba(0, 0, 0, .2); */
+  text-align: center;
+  margin: 2rem auto;
+  border: none !important;
+  transition: all 0.3s;
+  min-height: 40rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 0 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.icon-wedo {
+  color: #94b3fd;
+}
+
+.card:hover {
+  color: white;
+  transform: translateY(-1rem);
+  background-color: #94b3fd !important;
+}
+
+.card:hover .icon-wedo {
+  color: white;
+}
+
+.card::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+
+.card-title {
+  opacity: 90%;
+}
+
+.card-text {
+  font-size: 1.7rem !important;
+  opacity: 50%;
+  font-weight: 500;
+}
+
+.nav-span {
+  border-bottom: 3px solid transparent;
+}
+
+.nav-span:hover {
+  border-bottom: 3px solid black;
+}

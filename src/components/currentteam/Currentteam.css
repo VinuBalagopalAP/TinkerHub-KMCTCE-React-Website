@@ -1,0 +1,39 @@
+.team-img-box {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.team-img {
+  width: 60%;
+}
+
+.team-card {
+  width: 25rem;
+  background-color: #fff;
+  margin: 0 auto 5rem auto;
+  padding: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 0 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 1rem;
+}
+
+.img-wrapper {
+  width: 21rem;
+  height: 22rem;
+  background-color: #daddfc;
+  border-radius: 0.7rem;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.team-name {
+  color: #3e64ff;
+  font-weight: 700 !important;
+}
+
+.team-role {
+  font-size: 1.6rem !important;
+  opacity: 50%;
+  font-weight: 600;
+}

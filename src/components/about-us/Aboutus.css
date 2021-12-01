@@ -1,0 +1,128 @@
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.about-us img {
+  margin: auto;
+}
+
+.about-us .row {
+  margin-bottom: 3rem !important;
+}
+
+.about-container:not(:last-child) {
+  margin-bottom: 7rem;
+}
+
+.mission-box1 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 0 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.about-us-heading {
+  font-size: 2rem;
+  font-weight: 700 !important;
+  color: #4b9efdd3;
+}
+
+.mission-para {
+  font-size: 1.7rem;
+  font-weight: 600;
+  opacity: 50%;
+}
+
+.card-box1 {
+  text-align: center;
+}
+
+.commitee-text-box {
+  text-align: left;
+}
+
+.card-commitee {
+  display: inline-block;
+  width: 28rem;
+  height: 39rem;
+  padding: 6rem 3rem;
+  margin: 2rem;
+  background-color: #f2f3f7;
+  box-shadow: 0.6rem 0.6rem 1.2rem #d2dce9, -0.5rem -0.6rem 1rem #d2dce9;
+  border-radius: 2rem;
+}
+
+.card-commitee .commitee-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.commitee-img-box {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  position: relative;
+  /* margin-bottom: 2rem; */
+  overflow: hidden;
+}
+
+.commitee-img-box img {
+  width: 100%;
+}
+
+.commitee-name {
+  color: rgb(24, 113, 230);
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+.commitee-role {
+  color: #6c758f;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.commitee-contact {
+  margin-top: 2rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.commitee-contact a {
+  text-decoration: none;
+  color: #6c7f8f;
+  font-size: 3rem;
+  transition: all 0.4s;
+}
+
+.commitee-contact a i {
+  font-size: 3rem;
+}
+
+.commitee-contact a:hover {
+  color: #0196e3;
+}
+
+@media (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mission-box1 {
+    order: 2;
+  }
+
+  .mission-box2 {
+    text-align: center;
+  }
+}
