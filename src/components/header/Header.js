@@ -19,7 +19,8 @@ function Header() {
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link nav-span active" href="index.html">
-            Home <span class="sr-only">(current)</span>
+            {/* Home <span class="sr-only">(current)</span> */}
+            Home
           </a>
           <a class="nav-item nav-link nav-span" href="#section-events">
             Events

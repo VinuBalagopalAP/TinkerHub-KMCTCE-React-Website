@@ -20,7 +20,8 @@
 
 @media (max-width: 600px) {
   .navbar-brand {
-    position: static;
+    position: absolute;
+    margin-right: -125px !important;
     top: 1.5rem;
     right: 2rem;
   }

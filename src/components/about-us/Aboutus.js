@@ -1,5 +1,4 @@
 import "./Aboutus.css";
-import Committee from "./Committee";
 import Mission from "./mission";
 import Vision from "./Vision";
 

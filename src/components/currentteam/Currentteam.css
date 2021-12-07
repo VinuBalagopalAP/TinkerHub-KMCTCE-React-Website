@@ -37,3 +37,6 @@
   opacity: 50%;
   font-weight: 600;
 }
+.section-team {
+  overflow-x: hidden;
+}

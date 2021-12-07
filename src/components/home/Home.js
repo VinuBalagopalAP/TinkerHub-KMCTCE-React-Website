@@ -3,14 +3,16 @@ import "./Home.css";
 
 function Home() {
   return (
-    <header class="section-home">
+    <header class="section__home">
       <div class="center">
-        <div class="text-box">
-          <h1 class="home-heading">
-            <span class="home-heading__1">Tinkerhub</span>
-            <span class="home-heading__2">KMCTCE</span>
+        <div class="text__box">
+          <h1 class="home__heading">
+            <span class="home__heading__1">
+              Tinker<span className="home__heading__1__span">Hub</span>
+            </span>
+            <span class="home__heading__2">KMCTCE</span>
           </h1>
-          <p class="home-para">
+          <p class="home__para">
             A community dedicated to peer-to-peer learning and connecting
             students with resources. We provide students with opportunity to
             study, grow, and expand their technical abilities.
@@ -18,7 +20,7 @@ function Home() {
         </div>
 
         <div>
-          <img class="hero-img" src={homeimage} alt="homeimage" />
+          <img class="hero__img" src={homeimage} alt="homeimage" />
         </div>
       </div>
     </header>

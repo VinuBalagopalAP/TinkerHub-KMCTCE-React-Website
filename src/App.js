@@ -10,10 +10,10 @@ function App() {
     <div>
       <Header />
       <Home />
-      <Aboutus />
-      <Thingswedo />
-      <Currentteam />
-      <Counts />
+      {/* <Aboutus />
+      <Thingswedo /> */}
+      {/* <Currentteam /> */}
+      {/* <Counts /> */}
     </div>
   );
 }
